@@ -6,13 +6,12 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-	<nav style="background-color: #526cde;padding: 10px;
+	<nav style="background-color: #0A1A73;padding: 20px;
 	margin-top: 1px;">
-		<form style="float: right;" action="search.php" method="GET">
+		<li><form style="float: right;" action="search.php" method="GET">
 			<input type="text" name="query" />
 			<input type="submit" class="btn btn-success" value="Search" />
-			<a class="btn btn-primary">login</a>
-		</form>
+		</form></li>
 	</nav>
 </body>
 </html>
